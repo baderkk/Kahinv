@@ -83,14 +83,14 @@ footer::before {
 }
 footer span { margin-inline: .35em; }
 
-/* a small sun on the horizon line, aligned to the text column */
-.sun {
+/* a short band of triangles and diamonds, after Al-Qatt Al-Asiri, aligned to the text column */
+.motif {
   position: absolute; left: 38%; bottom: calc(100% + 5px);
-  width: 2.5rem; height: 1.25rem;
+  width: 3rem; height: .625rem;
   color: var(--rule);
 }
 
 @media (max-width: 900px) {
   main { margin-left: 0; padding-block: 3.5rem; }
-  .sun { left: 0; }
+  .motif { left: 0; }
 }
