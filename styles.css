@@ -64,6 +64,8 @@ h1 {
   margin-bottom: 1.75rem;
 }
 
+main span { white-space: nowrap; }
+
 main p + p { margin-top: .9rem; }
 main p { color: #3b3c40; }
 main .contact { margin-top: 2.5rem; color: var(--text); }
