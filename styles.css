@@ -83,10 +83,10 @@ footer::before {
 }
 footer span { margin-inline: .35em; }
 
-/* a short band of triangles and diamonds, after Al-Qatt Al-Asiri, aligned to the text column */
+/* stepped crenellations, after Najdi mud-brick parapets, aligned to the text column */
 .motif {
   position: absolute; left: 38%; bottom: calc(100% + 5px);
-  width: 3rem; height: .625rem;
+  width: 3.25rem; height: .375rem;
   color: var(--rule);
 }
 
