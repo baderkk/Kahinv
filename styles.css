@@ -44,8 +44,8 @@ a:focus-visible { outline: 1px solid var(--blue); outline-offset: 4px; }
 
 .wordmark {
   font-family: "Marcellus", "Times New Roman", serif;
-  font-size: .9375rem;
-  letter-spacing: .22em;
+  font-size: 1.25rem;
+  letter-spacing: .36em;
   text-transform: uppercase;
 }
 
