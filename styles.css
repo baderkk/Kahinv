@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "EB Garamond"; font-weight: 400; font-style: normal; font-display: swap;
+  src: url("fonts/eb-garamond.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Marcellus"; font-weight: 400; font-style: normal; font-display: swap;
+  src: url("fonts/marcellus.woff2") format("woff2");
+}
+
 :root {
   --paper: #f6f5f1;
   --text: #1b1c1f;
@@ -22,8 +31,11 @@ body {
   font-family: "EB Garamond", Garamond, Georgia, serif;
   font-size: 1.1875rem;
   line-height: 1.6;
+  font-variant-numeric: oldstyle-nums;
   -webkit-font-smoothing: antialiased;
 }
+
+abbr { font-variant-caps: all-small-caps; letter-spacing: .03em; text-decoration: none; }
 
 h1, p { margin: 0; font-weight: 400; }
 
