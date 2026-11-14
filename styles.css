@@ -31,11 +31,8 @@ body {
   font-family: "EB Garamond", Garamond, Georgia, serif;
   font-size: 1.1875rem;
   line-height: 1.6;
-  font-variant-numeric: oldstyle-nums;
   -webkit-font-smoothing: antialiased;
 }
-
-abbr { font-variant-caps: all-small-caps; letter-spacing: .03em; text-decoration: none; }
 
 h1, p { margin: 0; font-weight: 400; }
 
@@ -86,6 +83,14 @@ footer::before {
 }
 footer span { margin-inline: .35em; }
 
+/* a small sun on the horizon line, aligned to the text column */
+.sun {
+  position: absolute; left: 38%; bottom: calc(100% + 5px);
+  width: 2.5rem; height: 1.25rem;
+  color: var(--rule);
+}
+
 @media (max-width: 900px) {
   main { margin-left: 0; padding-block: 3.5rem; }
+  .sun { left: 0; }
 }
