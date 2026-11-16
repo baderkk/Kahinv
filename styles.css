@@ -43,11 +43,13 @@ a:focus-visible { outline: 1px solid var(--blue); outline-offset: 4px; }
 ::selection { background: var(--blue); color: #fff; }
 
 .wordmark {
+  display: flex; align-items: baseline; gap: .85em;
   font-family: "Marcellus", "Times New Roman", serif;
   font-size: 1.25rem;
   letter-spacing: .36em;
   text-transform: uppercase;
 }
+.wordmark svg { height: .54em; width: auto; flex: none; }
 
 main {
   align-self: center;
