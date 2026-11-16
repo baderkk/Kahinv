@@ -26,9 +26,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   padding: clamp(1.75rem, 4vw, 3.25rem) var(--pad);
-  /* a faint band of slightly deeper paper behind the wordmark */
-  --band: calc(2 * clamp(1.75rem, 4vw, 3.25rem) + 2rem);
-  background: linear-gradient(180deg, #f0efea 0, #f0efea var(--band), var(--paper) var(--band));
+  background: var(--paper);
   color: var(--text);
   font-family: "EB Garamond", Garamond, Georgia, serif;
   font-size: 1.1875rem;
